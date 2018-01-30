@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is a portfolio website that contains pertinent skills, experience, and interests">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+
+<!-- Naviation Bar -->
+	<nav class="navbar navbar-inverse" >
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 
+				data-target="#bs-example-navbar-collapse-1">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Site's Brand</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav" >
+					<li class="active">
+						<a href="about.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About Me</a>
+					</li>
+					<li>
+						<a href="about.html">Academics</a>
+					</li>
+					<li>
+						<a href="about.html">CV/Resume</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+      				<li id="time">
+      					<script>
+						var date = new Date();
+						document.write(date);
+						</script>
+      				</li>
+   				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container" id="welcome">
+		<p>
+			<script>
+			
+				var greeting;
+				var time = new Date().getHours();
+				if (time < 8) {
+			    	 greeting = "For God's sake, why are you on this website at this hour?!";
+				}  else if (time < 12) {
+			    	 greeting = "Good Morning, I hope your coffee was well caffeinated!";
+		   	 	}  else if (time < 17) {
+		         	 greeting = "Good Afternoon, I hope your having the day you deserve!";
+		   	 	}  else {
+		        	 greeting = "Good Evening, is it time for a drink? ";
+		  	  	}
+		   		document.write(greeting);
+		    
+		   	</script>
+		</p>
+	</div>
+	
+	
+	
+	<div class="container" id="jumbo_box">
+		<img id="profilepic" src="images/aboutme.jpg" alt="Profile Picture" height="300" />
+		<div id="quote">
+    		<h1> To the Sour Reader</h1>
+    		<p id="herrick">"If thou dislik'st the piece thou light'st on first, 
+			Think that of all that I have writ the worst; 
+			But if thou read'st my book unto the end, 
+			And still dost this and that verse reprehend, 
+			O perverse man! If all disgustful be, 
+			The extreme scab take thee and thine, for me."<br/><br/> - <b>Robert Herrick</b></p>
+  		</div>
+	</div>
+	<div class="container" id="subcategories">
+		<div class="responsive">
+  			<div class="subcat">
+    			<a target="_blank" href="">
+     		 		<img src="images/coffeebean.jpg" alt="Mountains" width="600" height="400">
+    			</a>
+    		<div class="desc">Add a description of the image here</div>	
+ 			</div>
+		</div>
+		<div class="responsive">
+  			<div class="subcat">
+    			<a target="_blank" href="">
+     		 		<img src="images/coffeebean.jpg" alt="Mountains" width="600" height="400">
+    			</a>
+    		<div class="desc">Add a description of the image here</div>	
+ 			</div>
+		</div>
+		<div class="responsive">
+  			<div class="subcat">
+    			<a target="_blank" href="">
+     		 		<img src="images/coffeebean.jpg" alt="Mountains" width="600" height="400">
+    			</a>
+    		<div class="desc">Add a description of the image here</div>	
+ 			</div>
+		</div>
+	</div>
+</body>
+</html>
