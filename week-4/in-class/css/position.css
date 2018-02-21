@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+}
+
+header {
+  background-color: antiquewhite;
+  height: 75px;
+  padding-left: 5%;
+}
+
+header h1 {
+  line-height: 75px;
+}
+
+header img {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  height: 75px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  padding-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  padding-left: 24px;  
+}
+
+h1, h2, h3, blockquote {
+  font-family: "Old Standard TT", serif;
+}
+
+h3, p {
+  margin-top: 1em;
+  margin-bottom: .5em:
+}
+
+h2 {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+main {
+  display: flex;
+  padding: 0 5% 0 5%;
+}
+
+article {
+  width: 66%;
+}
+
+aside {
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+aside figure, aside h3 {
+  background-color: peachpuff;
+}
+
+footer {
+  background-color: brown;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+}
+
+.cross-page-quote {
+  height: 4em;
+  background-color: grey;
+  text-align: center;
+}
+
