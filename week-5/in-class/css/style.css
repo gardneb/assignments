@@ -9,13 +9,20 @@ body {
     font-size: 16px;
 }
 
+header, nav, footer {
+    padding: 0 6rem 0 6rem;
+}
+
+main { 
+    padding: 0 6rem 1rem 6rem;
+}
+
 h1, h2, h3, nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 
 h1, h2, h3 {
-    text-transform: uppercase;
     margin-bottom: .5rem;
 }
 
@@ -85,8 +92,10 @@ article p {
     margin-bottom: 1em;
 }
 
-.moral {
-    font-style: italic;
+.hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
 }
 
 .link-to-source {
@@ -99,9 +108,44 @@ article p {
     margin-bottom: 2rem
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.fables {
+    min-width: 50%;
+    padding: 0 2rem 0 0;
+}
+
+aside {
+    width: 25rem;
+}
+
+.scroll {
+    width: 12.5rem; 
+    display: block;
+    margin: auto;
+}
+
+#boys-and-frog img, #belling-the-cat img  {
+    float: left;
+    padding: 1rem;
+}
+
+#tortoise-and-ducks img {
+    float: right;
+    padding: 1rem;
+}
+
+#belling-the-cat img {
+    width: 420px;
+}
 
 /* Footer */
 footer {
     background-color: #cfc354;
     color: #fffbd5;
+    text-align: center;
+    padding: 5rem 0 5rem 0;
 }
