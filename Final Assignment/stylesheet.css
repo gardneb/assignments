@@ -1,0 +1,138 @@
+h1, h2 {
+	font-family: "Courier", san-serif;
+}
+
+header h1 {
+	padding-left: 24px;
+	}
+
+.link p {
+	font-family: "Courier", san-serif;
+	}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Courier", san-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+    height: 40px;
+    line-height: 40px; 
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    padding-left: 24px;
+}
+
+h1 a:link, h1 a:visited, h1 a:active {
+	color: black;
+	text-decoration: none;
+	}
+
+.active {
+	background-color: white;
+	color: black;
+	padding: 5px;
+	}
+
+p {
+	line-height: 1.5;
+	}
+	
+#searchBox {
+	display: flex;
+	height: 300px;
+	background-image: url("library.jpeg");
+	}
+
+#searchEngine {
+	justify-content: space-around;
+	margin: auto;
+	background-color: black;
+	padding: 10px;	
+	}
+	
+#additionalInfo {
+	display: flex;
+	justify-content: space-around;
+	height: 200px;
+	}
+
+#additionalInfo > div {
+	width: 30%;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 35px;
+	}
+
+#additionalInfo > div:hover {
+    border: 1px solid #777;
+	}
+	
+div.link {
+	width: 100%;
+	height: 100%;
+	}
+	
+.addIn a:link, .addIn a:visited {
+	color: black;
+	text-decoration: none;
+	}
+	
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 2em;
+    font-size: .9em;
+    }
+
+#mission {
+	background-color: rgb(240, 240, 240);
+	padding: 20px;
+	border-radius: 8px;
+	font-family: "Courier", san-serif;
+	}
+
+#additionalInfo {
+	display: flex;
+	justify-content: space-around;
+	height: 200px;
+	}
+
+#contact_cont, #event_cont, #services_cont {
+	display: flex;
+	flex-direction: column;
+	}
+
+#services_cont > div {
+	height: 300px;
+	margin: 10px;
+	}
+
+#contact_cont > div {
+	height: 300px;
+	margin: 10px;
+	}
+	
+#event_cont > div{
+	height: 300px;
+	margin: 10px;
+	}
+
+	
+	
+	
